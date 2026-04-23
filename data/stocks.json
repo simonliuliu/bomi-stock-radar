@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "中美太空股观察站 Pro",
-    "updated_at": "2026-04-24 00:10 CST",
+    "updated_at": "2026-04-24 00:13 CST",
     "notes": "价格、涨幅、区间位置已由自动脚本刷新；事件摘要仍为人工整理版。"
   },
   "stocks": [
@@ -195,9 +195,9 @@
       "focus": 8.9,
       "ace": "无直接观点；按板块地位看属于A股核心观察票。",
       "events": [
+        "自动刷新失败，保留旧数据：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
         "一季度净亏损同比扩大。",
-        "但卫星互联网组网主题持续强。",
-        "近期仍是A股太空链龙头之一。"
+        "但卫星互联网组网主题持续强。"
       ],
       "date": "2026-04-23"
     },
@@ -219,9 +219,9 @@
       "focus": 8.6,
       "ace": "无直接观点；适合作为A股运营侧核心代表。",
       "events": [
+        "自动刷新失败，保留旧数据：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
         "卫星互联网概念持续升温。",
-        "板块资金关注度高。",
-        "与卫星运营资源价值重估相关。"
+        "板块资金关注度高。"
       ],
       "date": "2026-04-23"
     },
@@ -243,9 +243,9 @@
       "focus": 7.8,
       "ace": "无直接观点；更偏军工电子链高弹性分支。",
       "events": [
+        "自动刷新失败，保留旧数据：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
         "近期随军工/商业航天走强。",
-        "行业消息提升关注度。",
-        "资金博弈明显。"
+        "行业消息提升关注度。"
       ],
       "date": "2026-04-23"
     },
@@ -268,9 +268,9 @@
       "focus": 7.3,
       "ace": "无直接观点；偏产业应用逻辑。",
       "events": [
+        "自动刷新失败，保留旧数据：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
         "披露营收增长与商业航天布局。",
-        "兼具低空经济概念。",
-        "偏基本面应用方向。"
+        "兼具低空经济概念。"
       ],
       "date": "2026-04-23"
     },
@@ -292,9 +292,9 @@
       "focus": 5.3,
       "ace": "无直接观点；当前明显弱于板块。",
       "events": [
+        "自动刷新失败，保留旧数据：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
         "虽有合作与专利消息，但股价反馈弱。",
-        "板块内相对掉队。",
-        "更适合观察而非主追。"
+        "板块内相对掉队。"
       ],
       "date": "2026-04-23"
     },
@@ -316,9 +316,9 @@
       "focus": 6.7,
       "ace": "无直接观点；中位梯队观察样本。",
       "events": [
+        "自动刷新失败，保留旧数据：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
         "走势介于龙头与弱势票之间。",
-        "有修复但不属于最强主线。",
-        "适合中游观察。"
+        "有修复但不属于最强主线。"
       ],
       "date": "2026-04-23"
     }
