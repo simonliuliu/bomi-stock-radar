@@ -12,9 +12,11 @@
     }
     *{box-sizing:border-box} body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;color:var(--text);background:radial-gradient(circle at top left, rgba(73,121,255,.2), transparent 24%),linear-gradient(180deg,var(--bg),#091423 60%, #08111f);} 
     .wrap{max-width:1400px;margin:0 auto;padding:14px}
-    .hero{position:sticky;top:0;z-index:20;background:linear-gradient(135deg,rgba(17,30,52,.96),rgba(10,18,31,.96));backdrop-filter:blur(12px);border:1px solid var(--line);border-radius:22px;padding:16px;box-shadow:0 16px 40px rgba(0,0,0,.25);margin-bottom:14px}
-    h1{margin:0;font-size:clamp(24px,5vw,36px)} .muted{color:var(--muted)} .hero p{margin:8px 0 0;line-height:1.6}
-    .chips,.toolbar,.tabs{display:flex;gap:8px;flex-wrap:wrap}.chips{margin-top:12px}.toolbar{margin-top:14px}.tabs{margin-top:14px}
+    .hero{position:sticky;top:0;z-index:20;background:linear-gradient(135deg,rgba(17,30,52,.96),rgba(10,18,31,.96));backdrop-filter:blur(12px);border:1px solid var(--line);border-radius:22px;padding:18px;box-shadow:0 16px 40px rgba(0,0,0,.25);margin-bottom:14px}
+    h1{margin:0;font-size:clamp(22px,4vw,32px);letter-spacing:-0.02em} .muted{color:var(--muted)} .hero p{margin:6px 0 0;line-height:1.5;font-size:13px}
+    .hero-top{display:flex;align-items:flex-start;justify-content:space-between;gap:14px}
+    .hero-meta{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+    .chips,.toolbar,.tabs{display:flex;gap:8px;flex-wrap:wrap}.chips{margin-top:10px}.toolbar{margin-top:14px}.tabs{margin-top:12px}
     .chip,.tab{padding:8px 12px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.04);font-size:12px}
     .tab{cursor:pointer}.tab.active{background:rgba(105,168,255,.18);border-color:rgba(105,168,255,.35);color:#fff}
     input,select{background:rgba(255,255,255,.06);color:var(--text);border:1px solid var(--line);border-radius:14px;padding:12px 14px;min-height:44px;outline:none}
@@ -37,20 +39,21 @@
     .pos{color:var(--green)}.neg{color:var(--red)}.neu{color:var(--gold)}
     .footer{font-size:12px;color:var(--muted);line-height:1.7;text-align:center;margin:20px 0 10px}
     @media (max-width: 900px){.summary{grid-template-columns:repeat(2,1fr)}}
-    @media (max-width: 640px){.wrap{padding:10px}.hero{padding:14px;border-radius:18px}.summary{grid-template-columns:1fr}.price{font-size:24px}.name{font-size:16px}.section-title{flex-direction:column;align-items:flex-start}.chart-wrap{height:260px}}
+    @media (max-width: 640px){.wrap{padding:10px}.hero{padding:14px;border-radius:18px}.hero-top{flex-direction:column;align-items:flex-start}.hero-meta{justify-content:flex-start}.summary{grid-template-columns:1fr}.price{font-size:24px}.name{font-size:16px}.section-title{flex-direction:column;align-items:flex-start}.chart-wrap{height:260px}}
   </style>
 </head>
 <body>
 <div class="wrap">
   <div class="hero">
-    <h1>📈 Bomi 美股风向站</h1>
-    <p class="muted">面向手机端的美股观察网站：看热点、看风向、看强势股与提前布局机会。当前首个深度专题为 <b>太空股 / 商业航天</b>，后续会继续扩展到 AI、软件、加密、基础设施等主线。</p>
-    <div class="chips">
-      <div class="chip" id="updatedAt">加载中...</div>
-      <div class="chip">手机端优先</div>
-      <div class="chip">中美市场对比</div>
-      <div class="chip">ACE 观点专区</div>
-      <div class="chip">可继续升级成自动行情版</div>
+    <div class="hero-top">
+      <div>
+        <h1>Bomi Stock Radar</h1>
+        <p class="muted">Track themes, leaders and early-positioning opportunities.</p>
+      </div>
+      <div class="hero-meta">
+        <div class="chip" id="updatedAt">加载中...</div>
+        <div class="chip">Live Dashboard</div>
+      </div>
     </div>
     <div class="toolbar">
       <input id="search" placeholder="搜索代码 / 公司名 / 主题，例如 RKLB / 卫星 / 中国卫通" />
@@ -119,21 +122,12 @@ function overviewHTML(list){
   return `
   <div class="grid">
     <div class="card">
-      <div class="section-title"><div><h2>使用目标</h2><p>这个站点不是只看价格，而是辅助你找方向、找热门、找提前布局机会</p></div></div>
+      <div class="section-title"><div><h2>Market Overview</h2><p>Core signals at a glance</p></div></div>
       <div class="summary">
-        <div class="metric"><div class="k">看热门股</div><div class="v">Momentum</div><div class="n">通过近1月强势榜、关注度榜快速看到市场当前最热方向。</div></div>
-        <div class="metric"><div class="k">提前布局</div><div class="v">Watchlist</div><div class="n">结合ACE观点、主题分类和历史位置，盯住仍有空间的主线票。</div></div>
-        <div class="metric"><div class="k">看行业风向</div><div class="v">Themes</div><div class="n">通过主题聚类和事件摘要，判断资金与叙事正在往哪里走。</div></div>
-        <div class="metric"><div class="k">手机端决策</div><div class="v">Mobile First</div><div class="n">外出时也能快速浏览、筛选和跟踪重点标的。</div></div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="section-title"><div><h2>总览结论</h2><p>先看板块状态，再看单股</p></div></div>
-      <div class="summary">
-        <div class="metric"><div class="k">样本总数</div><div class="v">${list.length}</div><div class="n">当前已纳入中美代表性太空股/商业航天链样本</div></div>
-        <div class="metric"><div class="k">美股样本</div><div class="v">${us.length}</div><div class="n">更纯的商业航天与卫星通信方向</div></div>
-        <div class="metric"><div class="k">A股样本</div><div class="v">${cn.length}</div><div class="n">偏卫星互联网、军工航天、遥感应用链</div></div>
-        <div class="metric"><div class="k">最高关注度</div><div class="v">${leaders[0]?.ticker || '--'}</div><div class="n">当前样本里最值得优先盯盘的核心票</div></div>
+        <div class="metric"><div class="k">Coverage</div><div class="v">${list.length}</div><div class="n">Tracked names</div></div>
+        <div class="metric"><div class="k">US</div><div class="v">${us.length}</div><div class="n">Primary growth & theme names</div></div>
+        <div class="metric"><div class="k">CN</div><div class="v">${cn.length}</div><div class="n">Satellite & aerospace chain</div></div>
+        <div class="metric"><div class="k">Top Focus</div><div class="v">${leaders[0]?.ticker || '--'}</div><div class="n">Highest-priority name now</div></div>
       </div>
     </div>
     <div class="card chart-card">
