@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "中美太空股观察站 Pro",
-    "updated_at": "2026-10-29 13:27 CST",
+    "updated_at": "2026-10-30 13:27 CST",
     "notes": "价格、涨幅、区间位置已由自动脚本刷新；事件摘要仍为人工整理版。"
   },
   "stocks": [
@@ -14,13 +14,13 @@
         "商业航天",
         "SpaceX替代"
       ],
-      "price": 58.6,
-      "m1": -18.83,
-      "ytd": -22.88,
-      "y1": -8.08,
+      "price": 59.1,
+      "m1": -15.21,
+      "ytd": -22.23,
+      "y1": -10.67,
       "high52": 151.0,
       "low52": 37.57,
-      "drawdown": -61.19,
+      "drawdown": -60.86,
       "focus": 9.5,
       "ace": "强烈看多，核心主线之一，偏向持续累积筹码。",
       "events": [
@@ -28,7 +28,7 @@
         "股价接近52周高点。",
         "后续催化集中在火箭与卫星平台业务推进。"
       ],
-      "date": "2026-10-28"
+      "date": "2026-10-29"
     },
     {
       "region": "US",
@@ -39,13 +39,13 @@
         "NASA",
         "高弹性"
       ],
-      "price": 11.59,
-      "m1": -23.75,
-      "ytd": -35.18,
-      "y1": -6.15,
+      "price": 11.68,
+      "m1": -19.73,
+      "ytd": -34.68,
+      "y1": -2.83,
       "high52": 46.75,
       "low52": 7.78,
-      "drawdown": -75.21,
+      "drawdown": -75.02,
       "focus": 8.7,
       "ace": "认可，偏题材与任务催化，适合跟踪但波动大。",
       "events": [
@@ -53,7 +53,7 @@
         "近期接近阶段高点。",
         "市场继续围绕月球任务与NASA合作预期交易。"
       ],
-      "date": "2026-10-28"
+      "date": "2026-10-29"
     },
     {
       "region": "US",
@@ -64,13 +64,13 @@
         "SpaceX概念",
         "Proxy Trade"
       ],
-      "price": 94.89,
-      "m1": 5.2,
-      "ytd": 5.2,
-      "y1": 5.2,
+      "price": 95.2,
+      "m1": 5.54,
+      "ytd": 5.54,
+      "y1": 5.54,
       "high52": 96.0,
       "low52": 90.0,
-      "drawdown": -1.16,
+      "drawdown": -0.83,
       "focus": 9.2,
       "ace": "长期看好，偏爱低位区间买入，视作SpaceX相关替代投资。",
       "events": [
@@ -78,7 +78,7 @@
         "自动刷新失败，保留旧数据：'NoneType' object is not subscriptable",
         "自动刷新失败，保留旧数据：'NoneType' object is not subscriptable"
       ],
-      "date": "2026-10-28"
+      "date": "2026-10-29"
     },
     {
       "region": "US",
@@ -88,13 +88,13 @@
         "卫星直连手机",
         "高波动"
       ],
-      "price": 42.3,
-      "m1": -30.66,
-      "ytd": -49.32,
-      "y1": -45.61,
+      "price": 43.07,
+      "m1": -27.49,
+      "ytd": -48.4,
+      "y1": -46.2,
       "high52": 133.86,
       "low52": 36.72,
-      "drawdown": -68.4,
+      "drawdown": -67.82,
       "focus": 7.8,
       "ace": "板块重要成员，但不是当前最核心主推。",
       "events": [
@@ -102,7 +102,7 @@
         "长期逻辑仍然是手机直连卫星。",
         "执行风险高，波动大。"
       ],
-      "date": "2026-10-28"
+      "date": "2026-10-29"
     },
     {
       "region": "US",
@@ -112,13 +112,13 @@
         "卫星通信",
         "偏稳健"
       ],
-      "price": 45.94,
-      "m1": -4.95,
-      "ytd": 158.67,
-      "y1": 165.24,
+      "price": 46.05,
+      "m1": -3.94,
+      "ytd": 159.29,
+      "y1": 172.0,
       "high52": 57.18,
       "low52": 15.64,
-      "drawdown": -19.66,
+      "drawdown": -19.46,
       "focus": 7.2,
       "ace": "基本面认可，但更偏稳健，不是最强弹性首选。",
       "events": [
@@ -126,7 +126,7 @@
         "近期涨幅强。",
         "更适合稳健型跟踪。"
       ],
-      "date": "2026-10-28"
+      "date": "2026-10-29"
     },
     {
       "region": "US",
@@ -136,13 +136,13 @@
         "卫星遥感",
         "地缘冲突受益"
       ],
-      "price": 14.33,
-      "m1": -14.55,
-      "ytd": -29.79,
-      "y1": 11.6,
+      "price": 14.31,
+      "m1": -12.64,
+      "ytd": -29.89,
+      "y1": 10.93,
       "high52": 51.76,
       "low52": 10.52,
-      "drawdown": -72.31,
+      "drawdown": -72.35,
       "focus": 8.0,
       "ace": "有关注，但不是频道当前第一核心。",
       "events": [
@@ -150,7 +150,7 @@
         "近一年表现极强。",
         "估值弹性巨大。"
       ],
-      "date": "2026-10-28"
+      "date": "2026-10-29"
     },
     {
       "region": "US",
@@ -160,13 +160,13 @@
         "卫星宽带",
         "通信"
       ],
-      "price": 78.26,
-      "m1": 9.23,
-      "ytd": 107.97,
-      "y1": 98.58,
+      "price": 77.99,
+      "m1": 12.88,
+      "ytd": 107.25,
+      "y1": 99.11,
       "high52": 93.03,
       "low52": 29.13,
-      "drawdown": -15.88,
+      "drawdown": -16.17,
       "focus": 7.6,
       "ace": "卫星通信方向的重要对照标的。",
       "events": [
@@ -174,7 +174,7 @@
         "卫星通信资产持续重估。",
         "一年表现非常强。"
       ],
-      "date": "2026-10-28"
+      "date": "2026-10-29"
     },
     {
       "region": "CN",
@@ -185,13 +185,13 @@
         "卫星互联网",
         "A股龙头"
       ],
-      "price": 55.9,
-      "m1": 1.14,
-      "ytd": -41.12,
-      "y1": 31.56,
+      "price": 56.58,
+      "m1": 2.82,
+      "ytd": -40.4,
+      "y1": 27.03,
       "high52": 127.76,
       "low52": 35.0,
-      "drawdown": -56.25,
+      "drawdown": -55.71,
       "focus": 8.9,
       "ace": "无直接观点；按板块地位看属于A股核心观察票。",
       "events": [
@@ -199,7 +199,7 @@
         "自动刷新失败，保留旧数据：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
         "自动刷新失败，保留旧数据：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
       ],
-      "date": "2026-10-29"
+      "date": "2026-10-30"
     },
     {
       "region": "CN",
@@ -209,13 +209,13 @@
         "卫星运营",
         "卫星互联网"
       ],
-      "price": 23.32,
-      "m1": 2.73,
-      "ytd": -34.68,
-      "y1": 4.67,
+      "price": 22.47,
+      "m1": -0.58,
+      "ytd": -37.06,
+      "y1": 1.26,
       "high52": 53.85,
       "low52": 20.04,
-      "drawdown": -56.69,
+      "drawdown": -58.27,
       "focus": 8.6,
       "ace": "无直接观点；适合作为A股运营侧核心代表。",
       "events": [
@@ -223,7 +223,7 @@
         "自动刷新失败，保留旧数据：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
         "自动刷新失败，保留旧数据：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
       ],
-      "date": "2026-10-29"
+      "date": "2026-10-30"
     },
     {
       "region": "CN",
@@ -233,13 +233,13 @@
         "航天电子",
         "军工配套"
       ],
-      "price": 13.87,
-      "m1": 1.54,
-      "ytd": -34.88,
-      "y1": 17.54,
+      "price": 12.96,
+      "m1": -4.35,
+      "ytd": -39.15,
+      "y1": 15.0,
       "high52": 32.22,
       "low52": 10.36,
-      "drawdown": -56.95,
+      "drawdown": -59.78,
       "focus": 7.8,
       "ace": "无直接观点；更偏军工电子链高弹性分支。",
       "events": [
@@ -247,7 +247,7 @@
         "自动刷新失败，保留旧数据：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
         "自动刷新失败，保留旧数据：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
       ],
-      "date": "2026-10-29"
+      "date": "2026-10-30"
     },
     {
       "region": "CN",
@@ -258,13 +258,13 @@
         "空天信息",
         "低空经济"
       ],
-      "price": 30.26,
-      "m1": 3.74,
-      "ytd": -48.7,
-      "y1": -27.57,
+      "price": 28.09,
+      "m1": -3.77,
+      "ytd": -52.38,
+      "y1": -32.38,
       "high52": 99.94,
       "low52": 27.16,
-      "drawdown": -69.72,
+      "drawdown": -71.89,
       "focus": 7.3,
       "ace": "无直接观点；偏产业应用逻辑。",
       "events": [
@@ -272,7 +272,7 @@
         "自动刷新失败，保留旧数据：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
         "自动刷新失败，保留旧数据：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
       ],
-      "date": "2026-10-29"
+      "date": "2026-10-30"
     },
     {
       "region": "CN",
@@ -282,13 +282,13 @@
         "遥感软件",
         "弱势股"
       ],
-      "price": 4.78,
-      "m1": -43.76,
-      "ytd": -85.32,
-      "y1": -84.93,
+      "price": 5.57,
+      "m1": -36.7,
+      "ytd": -82.89,
+      "y1": -82.1,
       "high52": 49.8,
-      "low52": 4.57,
-      "drawdown": -93.96,
+      "low52": 4.36,
+      "drawdown": -92.96,
       "focus": 5.3,
       "ace": "无直接观点；当前明显弱于板块。",
       "events": [
@@ -296,7 +296,7 @@
         "自动刷新失败，保留旧数据：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
         "自动刷新失败，保留旧数据：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
       ],
-      "date": "2026-10-29"
+      "date": "2026-10-30"
     },
     {
       "region": "CN",
@@ -306,13 +306,13 @@
         "卫星应用",
         "中位修复"
       ],
-      "price": 11.18,
-      "m1": -4.44,
-      "ytd": -41.22,
-      "y1": -16.19,
+      "price": 10.94,
+      "m1": -5.45,
+      "ytd": -42.48,
+      "y1": -18.96,
       "high52": 25.86,
       "low52": 10.27,
-      "drawdown": -56.77,
+      "drawdown": -57.7,
       "focus": 6.7,
       "ace": "无直接观点；中位梯队观察样本。",
       "events": [
@@ -320,7 +320,7 @@
         "自动刷新失败，保留旧数据：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
         "自动刷新失败，保留旧数据：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
       ],
-      "date": "2026-10-29"
+      "date": "2026-10-30"
     }
   ]
 }
